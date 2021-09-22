@@ -1,0 +1,23 @@
+.msg {
+    margin-top: 20px !important;
+}
+.contactInfo_item {
+    margin-bottom: 15px !important;
+    color: #989898;
+    font-size: 14px !important;
+}
+.white {
+    color: #fff;
+}
+.contactInfo_s_icons {
+    color: #989898;
+    margin: 7px !important;
+}
+.contactInfo_s_icons:hover {
+    color: var(--main-color);
+    margin: 7px !important;
+}
+.contactInfo_title {
+    color: black;
+    font-family: 'Playfair Display', serif !important;
+}

@@ -1,0 +1,60 @@
+.about_me_text {
+    color: darkslategray;
+    font-size: smaller;
+    line-height: 22px !important;
+    white-space: pre-line;
+    font-family: 'Work Sans' sans-serif;
+}
+/* Services section */
+.service {
+    height: 100%;
+    text-align: center;
+}
+.service .service_title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 9px !important;
+}
+.service .service_description {
+    color: #989898;
+    border-color: var(--main-color) !important;
+    margin-right: 5px;
+    text-align: center;
+}
+.service_icon > .MuiSvgIcon-root {
+    font-size: 46px !important;
+    color: darkslategray;
+    font-weight: 300;
+
+}
+
+/* Skills Section */
+.skill {
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 48px 0 rgba(100, 100, 100, 0.26) !important;
+    min-height: 150px;
+    height: 100%;
+}
+.skill .skill_title {
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 35px;
+}
+.skill .skill_description {
+    display: flex;
+    align-items: center;
+    color: #989898;
+    line-height: 18px;
+    font-weight: 400;
+}
+.skill .timeline_dot {
+    border-color: var(--main-color);
+    padding: 2px !important;
+    margin-right: 5px;
+}
+.graybg {
+    background: #fafafa;
+}

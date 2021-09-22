@@ -1,0 +1,30 @@
+
+/* Objective */
+.about_text {
+    color: darkslategray;
+    line-height: 22px !important;
+}
+/* Objective Ends */
+
+/* Timeline */
+    .resume_timeline .timeline_company {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        font-family: 'Playfair Dispay', serif !important;
+    }
+    .resume_timeline .timeline_title {
+        font-weight: 500 !important;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .resume_timeline .timeline_date {
+        color: darkslategray !important;
+        margin: 0 !important;
+        font-family: 'Playfair Dispay', serif !important;
+    }
+    .resume_timeline .timeline_description {
+        color: gray;
+        margin-top: 10px !important;
+        font-size: small;
+    }
+
+/* Timeline Ends */

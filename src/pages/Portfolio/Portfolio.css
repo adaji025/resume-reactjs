@@ -1,0 +1,69 @@
+.section_title span {
+    width: 100px;
+}
+/* Tabs */
+.customTabs .active {
+    color: var(--main-color);
+}
+.customTabs .customTabs_item{
+    padding: 0px !important;
+    min-width: 0px !important;
+    margin-right: 20px !important;
+    text-transform: inherit !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    outline-width: 0px !important;
+}
+
+/* Cards */
+.customCard {
+    height: 100%;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 48px 0 rgba(100, 100, 100, 0.26) !important;
+    border-radius: 5px;
+    overflow: hidden;
+    outline-width: 0px !important;
+    margin: 10px;
+}
+.customCard .customCard_image {
+    height: 140px;
+}
+.customCard .customCard_title {
+      font-weight: 500 !important;
+}
+.customCard .customCard_caption {
+    color: gray;
+}
+
+/* Project Dialog */
+
+.projectDialog_image {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.projectDialog_description {
+    margin-top: 10px !important;
+}
+.projectDialog_actions {
+    margin-bottom: 10px !important;
+}
+.projectDialog_icon {
+    color: darkslategray;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.projectDialog_icon:hover {
+    color: var(--main-color);
+}
+
+@media (max-width: 576px) {
+    .customTabs .customTabs_item {
+        font-size: 10px !important;
+    }
+    .customCard .customCard_title {
+        font-size: 12px !important;
+    }
+}

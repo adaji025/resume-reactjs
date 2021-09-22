@@ -8,28 +8,36 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 import Resume from "./pages/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contact from "./pages/Contact/Contact";
+import About from "./pages/About/About";
 
 function App() {
   return (
-    <Container disableGutters maxWidth={false}>
-      <Grid container>
-        <Grid item xs={12} sm={12} md={4} xl={3}>
+    <Container className={'top_60'}>
+      <Grid container spacing={7}>
+        <Grid item xs={12} sm={12} md={4} xl={3} >
           <Profile />
         </Grid>
         <Grid item xs>
-          <Header />
           <Router>
+          <Header />
+            <div className="main_content container_shadow">
+            
             <Switch>
+            
             <Route path="/portfolio">
               <Portfolio />
             </Route>
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/">
+            <Route path="/resume">
               <Resume />
             </Route>
+            <Route path="/">
+            <About />
+            </Route>
             </Switch>
+            </div>
           </Router>
           <Footer />
         </Grid>
